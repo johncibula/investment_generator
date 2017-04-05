@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  ISM_Report: one
+  index: one
+  index_reading: 9.99
+
+two:
+  ISM_Report: two
+  index: two
+  index_reading: 9.99

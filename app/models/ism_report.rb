@@ -1,0 +1,2 @@
+class IsmReport < ApplicationRecord
+end

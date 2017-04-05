@@ -1,0 +1,12 @@
+<h1>Industries</h1>
+<div>
+  <% @industries.each do |industry| %>
+  <div class='main'>
+     <%= industry.name %>
+     <div>
+
+     </div>
+      <%= link_to("Explore", industry) %>
+  </div>
+  <% end %>
+</div>

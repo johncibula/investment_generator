@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  industry: one
+  ISM_report: one
+  index: one
+  place: 1
+  growth: false
+
+two:
+  industry: two
+  ISM_report: two
+  index: two
+  place: 1
+  growth: false

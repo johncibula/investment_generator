@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  primary_id: 
+  ism_report: one
+  industry_id: one
+  quote: MyString
+
+two:
+  primary_id: 
+  ism_report: two
+  industry_id: two
+  quote: MyString

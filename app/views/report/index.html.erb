@@ -1,0 +1,11 @@
+<h1>Overview</h1>
+<div class='main'>
+  <% @indices.each do |index| %>
+    <div>
+      <%= index.name %>:
+      <% @index_reports.where(:index_id => index).each do |index_report| %>
+        <%= index_report.index_reading %>
+      <% end %>
+    </div>
+    <% end %>
+</div>

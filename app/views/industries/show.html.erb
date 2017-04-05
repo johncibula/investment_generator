@@ -1,0 +1,9 @@
+<h1> <%= @industry.name %> </h1>
+<div>
+  <% @value_chains.each do |value_chain| %>
+  <p>
+    <%= value_chain.name %>
+    <%= link_to("Explore", [@industry,value_chain]) %>
+  </p>
+  <% end %>
+</div>
